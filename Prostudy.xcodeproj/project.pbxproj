@@ -13,15 +13,54 @@
 		F9DEA4AF189A9B8500E57F41 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEA4AE189A9B8500E57F41 /* CoreData.framework */; };
 		F9DEA4B5189A9B8500E57F41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9DEA4B3189A9B8500E57F41 /* InfoPlist.strings */; };
 		F9DEA4B7189A9B8500E57F41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DEA4B6189A9B8500E57F41 /* main.m */; };
-		F9DEA4BB189A9B8500E57F41 /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DEA4BA189A9B8500E57F41 /* GMAppDelegate.m */; };
-		F9DEA4BE189A9B8500E57F41 /* Prostudy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9DEA4BC189A9B8500E57F41 /* Prostudy.xcdatamodeld */; };
-		F9DEA4C0189A9B8500E57F41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DEA4BF189A9B8500E57F41 /* Images.xcassets */; };
 		F9DEA4C7189A9B8500E57F41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEA4C6189A9B8500E57F41 /* XCTest.framework */; };
 		F9DEA4C8189A9B8500E57F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEA4A8189A9B8500E57F41 /* Foundation.framework */; };
 		F9DEA4C9189A9B8500E57F41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEA4AC189A9B8500E57F41 /* UIKit.framework */; };
 		F9DEA4CA189A9B8500E57F41 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEA4AE189A9B8500E57F41 /* CoreData.framework */; };
 		F9DEA4D2189A9B8500E57F41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9DEA4D0189A9B8500E57F41 /* InfoPlist.strings */; };
 		F9DEA4D4189A9B8500E57F41 /* ProstudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DEA4D3189A9B8500E57F41 /* ProstudyTests.m */; };
+		F9FD68A418A341930068F8FE /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD683D18A341930068F8FE /* UIView+Positioning.m */; };
+		F9FD68A518A341930068F8FE /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD683F18A341930068F8FE /* UIView+Size.m */; };
+		F9FD68A618A341930068F8FE /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD684218A341930068F8FE /* CoreDataTableViewController.m */; };
+		F9FD68A718A341930068F8FE /* Criteria.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD684418A341930068F8FE /* Criteria.m */; };
+		F9FD68A818A341930068F8FE /* criteria.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD684518A341930068F8FE /* criteria.png */; };
+		F9FD68A918A341930068F8FE /* criteria@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD684618A341930068F8FE /* criteria@2x.png */; };
+		F9FD68AA18A341930068F8FE /* CriteriaComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD684818A341930068F8FE /* CriteriaComparison.m */; };
+		F9FD68AB18A341930068F8FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD684918A341930068F8FE /* Default-568h@2x.png */; };
+		F9FD68AC18A341930068F8FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD684A18A341930068F8FE /* Default.png */; };
+		F9FD68AD18A341930068F8FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD684B18A341930068F8FE /* Default@2x.png */; };
+		F9FD68AE18A341930068F8FE /* defaultCriteria.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9FD684C18A341930068F8FE /* defaultCriteria.plist */; };
+		F9FD68B118A341930068F8FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FD685118A341930068F8FE /* Images.xcassets */; };
+		F9FD68B218A341930068F8FE /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9FD685218A341930068F8FE /* Model.xcdatamodeld */; };
+		F9FD68B318A341930068F8FE /* Parameter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD685518A341930068F8FE /* Parameter.m */; };
+		F9FD68B418A341930068F8FE /* params.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD685618A341930068F8FE /* params.png */; };
+		F9FD68B518A341930068F8FE /* params@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD685718A341930068F8FE /* params@2x.png */; };
+		F9FD68B618A341930068F8FE /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD685918A341930068F8FE /* Project.m */; };
+		F9FD68B718A341930068F8FE /* project.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD685A18A341930068F8FE /* project.png */; };
+		F9FD68B818A341930068F8FE /* project@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD685B18A341930068F8FE /* project@2x.png */; };
+		F9FD68BA18A341930068F8FE /* ProjectComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD685F18A341930068F8FE /* ProjectComparison.m */; };
+		F9FD68BC18A341930068F8FE /* prostudy57.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD686118A341930068F8FE /* prostudy57.png */; };
+		F9FD68BD18A341930068F8FE /* prostudy114.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD686218A341930068F8FE /* prostudy114.png */; };
+		F9FD68BE18A341930068F8FE /* prostudy120.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD686318A341930068F8FE /* prostudy120.png */; };
+		F9FD68BF18A341930068F8FE /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD686418A341930068F8FE /* result.png */; };
+		F9FD68C018A341930068F8FE /* result@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FD686518A341930068F8FE /* result@2x.png */; };
+		F9FD68C218A341930068F8FE /* UGMAnalyticHierarchyProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD686918A341930068F8FE /* UGMAnalyticHierarchyProcess.m */; };
+		F9FD68C318A341930068F8FE /* UGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD686B18A341930068F8FE /* UGMAppDelegate.m */; };
+		F9FD68C518A341930068F8FE /* UGMCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD686F18A341930068F8FE /* UGMCompareViewController.m */; };
+		F9FD68C618A341930068F8FE /* UGMComparisonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD687118A341930068F8FE /* UGMComparisonCell.m */; };
+		F9FD68C718A341930068F8FE /* UGMComparisonDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD687318A341930068F8FE /* UGMComparisonDetailCell.m */; };
+		F9FD68C818A341930068F8FE /* UGMComparisonView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD687518A341930068F8FE /* UGMComparisonView.m */; };
+		F9FD68C918A341930068F8FE /* UGMCriteriaComparisonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD687718A341930068F8FE /* UGMCriteriaComparisonCell.m */; };
+		F9FD68CB18A341930068F8FE /* UGMCriteriaComparisonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD687B18A341930068F8FE /* UGMCriteriaComparisonViewController.m */; };
+		F9FD68CD18A341930068F8FE /* UGMCriteriaDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD687F18A341930068F8FE /* UGMCriteriaDetailView.m */; };
+		F9FD68CF18A341930068F8FE /* UGMCriteriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD688318A341930068F8FE /* UGMCriteriaViewController.m */; };
+		F9FD68D118A341930068F8FE /* UGMPrioritySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD688718A341930068F8FE /* UGMPrioritySlider.m */; };
+		F9FD68D218A341930068F8FE /* UGMProjectComparisonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD688918A341930068F8FE /* UGMProjectComparisonCell.m */; };
+		F9FD68D518A341930068F8FE /* UGMProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD688F18A341930068F8FE /* UGMProjectDetailViewController.m */; };
+		F9FD68D618A341930068F8FE /* UGMProjectExplanationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD689118A341930068F8FE /* UGMProjectExplanationCell.m */; };
+		F9FD68D818A341930068F8FE /* UGMProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD689518A341930068F8FE /* UGMProjectViewController.m */; };
+		F9FD68DC18A341930068F8FE /* UGMSubCriteriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD689D18A341930068F8FE /* UGMSubCriteriaViewController.m */; };
+		F9FD68DD18A341930068F8FE /* UGMTripleTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FD689F18A341930068F8FE /* UGMTripleTextCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +83,78 @@
 		F9DEA4B4189A9B8500E57F41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9DEA4B6189A9B8500E57F41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9DEA4B8189A9B8500E57F41 /* Prostudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prostudy-Prefix.pch"; sourceTree = "<group>"; };
-		F9DEA4B9189A9B8500E57F41 /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
-		F9DEA4BA189A9B8500E57F41 /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
-		F9DEA4BD189A9B8500E57F41 /* Prostudy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prostudy.xcdatamodel; sourceTree = "<group>"; };
-		F9DEA4BF189A9B8500E57F41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9DEA4C5189A9B8500E57F41 /* ProstudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProstudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DEA4C6189A9B8500E57F41 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F9DEA4CF189A9B8500E57F41 /* ProstudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProstudyTests-Info.plist"; sourceTree = "<group>"; };
 		F9DEA4D1189A9B8500E57F41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9DEA4D3189A9B8500E57F41 /* ProstudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProstudyTests.m; sourceTree = "<group>"; };
+		F9FD683C18A341930068F8FE /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		F9FD683D18A341930068F8FE /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		F9FD683E18A341930068F8FE /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		F9FD683F18A341930068F8FE /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		F9FD684118A341930068F8FE /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		F9FD684218A341930068F8FE /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		F9FD684318A341930068F8FE /* Criteria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Criteria.h; sourceTree = "<group>"; };
+		F9FD684418A341930068F8FE /* Criteria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Criteria.m; sourceTree = "<group>"; };
+		F9FD684518A341930068F8FE /* criteria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = criteria.png; sourceTree = "<group>"; };
+		F9FD684618A341930068F8FE /* criteria@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "criteria@2x.png"; sourceTree = "<group>"; };
+		F9FD684718A341930068F8FE /* CriteriaComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CriteriaComparison.h; sourceTree = "<group>"; };
+		F9FD684818A341930068F8FE /* CriteriaComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CriteriaComparison.m; sourceTree = "<group>"; };
+		F9FD684918A341930068F8FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F9FD684A18A341930068F8FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F9FD684B18A341930068F8FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F9FD684C18A341930068F8FE /* defaultCriteria.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultCriteria.plist; sourceTree = "<group>"; };
+		F9FD685118A341930068F8FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9FD685318A341930068F8FE /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F9FD685418A341930068F8FE /* Parameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameter.h; sourceTree = "<group>"; };
+		F9FD685518A341930068F8FE /* Parameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parameter.m; sourceTree = "<group>"; };
+		F9FD685618A341930068F8FE /* params.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = params.png; sourceTree = "<group>"; };
+		F9FD685718A341930068F8FE /* params@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "params@2x.png"; sourceTree = "<group>"; };
+		F9FD685818A341930068F8FE /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		F9FD685918A341930068F8FE /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		F9FD685A18A341930068F8FE /* project.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = project.png; sourceTree = "<group>"; };
+		F9FD685B18A341930068F8FE /* project@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "project@2x.png"; sourceTree = "<group>"; };
+		F9FD685E18A341930068F8FE /* ProjectComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectComparison.h; sourceTree = "<group>"; };
+		F9FD685F18A341930068F8FE /* ProjectComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectComparison.m; sourceTree = "<group>"; };
+		F9FD686118A341930068F8FE /* prostudy57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prostudy57.png; sourceTree = "<group>"; };
+		F9FD686218A341930068F8FE /* prostudy114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prostudy114.png; sourceTree = "<group>"; };
+		F9FD686318A341930068F8FE /* prostudy120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prostudy120.png; sourceTree = "<group>"; };
+		F9FD686418A341930068F8FE /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
+		F9FD686518A341930068F8FE /* result@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "result@2x.png"; sourceTree = "<group>"; };
+		F9FD686818A341930068F8FE /* UGMAnalyticHierarchyProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMAnalyticHierarchyProcess.h; sourceTree = "<group>"; };
+		F9FD686918A341930068F8FE /* UGMAnalyticHierarchyProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMAnalyticHierarchyProcess.m; sourceTree = "<group>"; };
+		F9FD686A18A341930068F8FE /* UGMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMAppDelegate.h; sourceTree = "<group>"; };
+		F9FD686B18A341930068F8FE /* UGMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMAppDelegate.m; sourceTree = "<group>"; };
+		F9FD686E18A341930068F8FE /* UGMCompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMCompareViewController.h; sourceTree = "<group>"; };
+		F9FD686F18A341930068F8FE /* UGMCompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMCompareViewController.m; sourceTree = "<group>"; };
+		F9FD687018A341930068F8FE /* UGMComparisonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMComparisonCell.h; sourceTree = "<group>"; };
+		F9FD687118A341930068F8FE /* UGMComparisonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMComparisonCell.m; sourceTree = "<group>"; };
+		F9FD687218A341930068F8FE /* UGMComparisonDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMComparisonDetailCell.h; sourceTree = "<group>"; };
+		F9FD687318A341930068F8FE /* UGMComparisonDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMComparisonDetailCell.m; sourceTree = "<group>"; };
+		F9FD687418A341930068F8FE /* UGMComparisonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMComparisonView.h; sourceTree = "<group>"; };
+		F9FD687518A341930068F8FE /* UGMComparisonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMComparisonView.m; sourceTree = "<group>"; };
+		F9FD687618A341930068F8FE /* UGMCriteriaComparisonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMCriteriaComparisonCell.h; sourceTree = "<group>"; };
+		F9FD687718A341930068F8FE /* UGMCriteriaComparisonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMCriteriaComparisonCell.m; sourceTree = "<group>"; };
+		F9FD687A18A341930068F8FE /* UGMCriteriaComparisonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMCriteriaComparisonViewController.h; sourceTree = "<group>"; };
+		F9FD687B18A341930068F8FE /* UGMCriteriaComparisonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMCriteriaComparisonViewController.m; sourceTree = "<group>"; };
+		F9FD687E18A341930068F8FE /* UGMCriteriaDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMCriteriaDetailView.h; sourceTree = "<group>"; };
+		F9FD687F18A341930068F8FE /* UGMCriteriaDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMCriteriaDetailView.m; sourceTree = "<group>"; };
+		F9FD688218A341930068F8FE /* UGMCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMCriteriaViewController.h; sourceTree = "<group>"; };
+		F9FD688318A341930068F8FE /* UGMCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMCriteriaViewController.m; sourceTree = "<group>"; };
+		F9FD688618A341930068F8FE /* UGMPrioritySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMPrioritySlider.h; sourceTree = "<group>"; };
+		F9FD688718A341930068F8FE /* UGMPrioritySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMPrioritySlider.m; sourceTree = "<group>"; };
+		F9FD688818A341930068F8FE /* UGMProjectComparisonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMProjectComparisonCell.h; sourceTree = "<group>"; };
+		F9FD688918A341930068F8FE /* UGMProjectComparisonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMProjectComparisonCell.m; sourceTree = "<group>"; };
+		F9FD688E18A341930068F8FE /* UGMProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMProjectDetailViewController.h; sourceTree = "<group>"; };
+		F9FD688F18A341930068F8FE /* UGMProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMProjectDetailViewController.m; sourceTree = "<group>"; };
+		F9FD689018A341930068F8FE /* UGMProjectExplanationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMProjectExplanationCell.h; sourceTree = "<group>"; };
+		F9FD689118A341930068F8FE /* UGMProjectExplanationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMProjectExplanationCell.m; sourceTree = "<group>"; };
+		F9FD689418A341930068F8FE /* UGMProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMProjectViewController.h; sourceTree = "<group>"; };
+		F9FD689518A341930068F8FE /* UGMProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMProjectViewController.m; sourceTree = "<group>"; };
+		F9FD689C18A341930068F8FE /* UGMSubCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMSubCriteriaViewController.h; sourceTree = "<group>"; };
+		F9FD689D18A341930068F8FE /* UGMSubCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMSubCriteriaViewController.m; sourceTree = "<group>"; };
+		F9FD689E18A341930068F8FE /* UGMTripleTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGMTripleTextCell.h; sourceTree = "<group>"; };
+		F9FD689F18A341930068F8FE /* UGMTripleTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGMTripleTextCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +217,12 @@
 		F9DEA4B0189A9B8500E57F41 /* Prostudy */ = {
 			isa = PBXGroup;
 			children = (
-				F9DEA4B9189A9B8500E57F41 /* GMAppDelegate.h */,
-				F9DEA4BA189A9B8500E57F41 /* GMAppDelegate.m */,
-				F9DEA4BF189A9B8500E57F41 /* Images.xcassets */,
-				F9DEA4BC189A9B8500E57F41 /* Prostudy.xcdatamodeld */,
+				F9FD68E018A341990068F8FE /* Model */,
+				F9FD68E118A341A30068F8FE /* View */,
+				F9FD68E218A341AA0068F8FE /* Controller */,
+				F9FD68E318A341B80068F8FE /* Image */,
+				F9FD68E418A341DF0068F8FE /* Third Party */,
+				F9FD685118A341930068F8FE /* Images.xcassets */,
 				F9DEA4B1189A9B8500E57F41 /* Supporting Files */,
 			);
 			path = Prostudy;
@@ -127,6 +231,9 @@
 		F9DEA4B1189A9B8500E57F41 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9FD686A18A341930068F8FE /* UGMAppDelegate.h */,
+				F9FD686B18A341930068F8FE /* UGMAppDelegate.m */,
+				F9FD684C18A341930068F8FE /* defaultCriteria.plist */,
 				F9DEA4B2189A9B8500E57F41 /* Prostudy-Info.plist */,
 				F9DEA4B3189A9B8500E57F41 /* InfoPlist.strings */,
 				F9DEA4B6189A9B8500E57F41 /* main.m */,
@@ -151,6 +258,144 @@
 				F9DEA4D0189A9B8500E57F41 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9FD683B18A341930068F8FE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD683C18A341930068F8FE /* UIView+Positioning.h */,
+				F9FD683D18A341930068F8FE /* UIView+Positioning.m */,
+				F9FD683E18A341930068F8FE /* UIView+Size.h */,
+				F9FD683F18A341930068F8FE /* UIView+Size.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F9FD684018A341930068F8FE /* CoreDataTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD684118A341930068F8FE /* CoreDataTableViewController.h */,
+				F9FD684218A341930068F8FE /* CoreDataTableViewController.m */,
+			);
+			path = CoreDataTableViewController;
+			sourceTree = "<group>";
+		};
+		F9FD68E018A341990068F8FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD685218A341930068F8FE /* Model.xcdatamodeld */,
+				F9FD685418A341930068F8FE /* Parameter.h */,
+				F9FD685518A341930068F8FE /* Parameter.m */,
+				F9FD685818A341930068F8FE /* Project.h */,
+				F9FD685918A341930068F8FE /* Project.m */,
+				F9FD685E18A341930068F8FE /* ProjectComparison.h */,
+				F9FD685F18A341930068F8FE /* ProjectComparison.m */,
+				F9FD684318A341930068F8FE /* Criteria.h */,
+				F9FD684418A341930068F8FE /* Criteria.m */,
+				F9FD684718A341930068F8FE /* CriteriaComparison.h */,
+				F9FD684818A341930068F8FE /* CriteriaComparison.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F9FD68E118A341A30068F8FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD687418A341930068F8FE /* UGMComparisonView.h */,
+				F9FD687518A341930068F8FE /* UGMComparisonView.m */,
+				F9FD687018A341930068F8FE /* UGMComparisonCell.h */,
+				F9FD687118A341930068F8FE /* UGMComparisonCell.m */,
+				F9FD687218A341930068F8FE /* UGMComparisonDetailCell.h */,
+				F9FD687318A341930068F8FE /* UGMComparisonDetailCell.m */,
+				F9FD687618A341930068F8FE /* UGMCriteriaComparisonCell.h */,
+				F9FD687718A341930068F8FE /* UGMCriteriaComparisonCell.m */,
+				F9FD688818A341930068F8FE /* UGMProjectComparisonCell.h */,
+				F9FD688918A341930068F8FE /* UGMProjectComparisonCell.m */,
+				F9FD689018A341930068F8FE /* UGMProjectExplanationCell.h */,
+				F9FD689118A341930068F8FE /* UGMProjectExplanationCell.m */,
+				F9FD689E18A341930068F8FE /* UGMTripleTextCell.h */,
+				F9FD689F18A341930068F8FE /* UGMTripleTextCell.m */,
+				F9FD687E18A341930068F8FE /* UGMCriteriaDetailView.h */,
+				F9FD687F18A341930068F8FE /* UGMCriteriaDetailView.m */,
+				F9FD688618A341930068F8FE /* UGMPrioritySlider.h */,
+				F9FD688718A341930068F8FE /* UGMPrioritySlider.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F9FD68E218A341AA0068F8FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD68E618A345470068F8FE /* Project */,
+				F9FD68E718A3454D0068F8FE /* Criteria */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F9FD68E318A341B80068F8FE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD685618A341930068F8FE /* params.png */,
+				F9FD685718A341930068F8FE /* params@2x.png */,
+				F9FD685A18A341930068F8FE /* project.png */,
+				F9FD685B18A341930068F8FE /* project@2x.png */,
+				F9FD686118A341930068F8FE /* prostudy57.png */,
+				F9FD686218A341930068F8FE /* prostudy114.png */,
+				F9FD686318A341930068F8FE /* prostudy120.png */,
+				F9FD684918A341930068F8FE /* Default-568h@2x.png */,
+				F9FD684A18A341930068F8FE /* Default.png */,
+				F9FD684B18A341930068F8FE /* Default@2x.png */,
+				F9FD684518A341930068F8FE /* criteria.png */,
+				F9FD684618A341930068F8FE /* criteria@2x.png */,
+				F9FD686418A341930068F8FE /* result.png */,
+				F9FD686518A341930068F8FE /* result@2x.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		F9FD68E418A341DF0068F8FE /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD68E518A344CA0068F8FE /* AHP */,
+				F9FD683B18A341930068F8FE /* Categories */,
+				F9FD684018A341930068F8FE /* CoreDataTableViewController */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		F9FD68E518A344CA0068F8FE /* AHP */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD686818A341930068F8FE /* UGMAnalyticHierarchyProcess.h */,
+				F9FD686918A341930068F8FE /* UGMAnalyticHierarchyProcess.m */,
+			);
+			name = AHP;
+			sourceTree = "<group>";
+		};
+		F9FD68E618A345470068F8FE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD689418A341930068F8FE /* UGMProjectViewController.h */,
+				F9FD689518A341930068F8FE /* UGMProjectViewController.m */,
+				F9FD688E18A341930068F8FE /* UGMProjectDetailViewController.h */,
+				F9FD688F18A341930068F8FE /* UGMProjectDetailViewController.m */,
+				F9FD686E18A341930068F8FE /* UGMCompareViewController.h */,
+				F9FD686F18A341930068F8FE /* UGMCompareViewController.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		F9FD68E718A3454D0068F8FE /* Criteria */ = {
+			isa = PBXGroup;
+			children = (
+				F9FD688218A341930068F8FE /* UGMCriteriaViewController.h */,
+				F9FD688318A341930068F8FE /* UGMCriteriaViewController.m */,
+				F9FD689C18A341930068F8FE /* UGMSubCriteriaViewController.h */,
+				F9FD689D18A341930068F8FE /* UGMSubCriteriaViewController.m */,
+				F9FD687A18A341930068F8FE /* UGMCriteriaComparisonViewController.h */,
+				F9FD687B18A341930068F8FE /* UGMCriteriaComparisonViewController.m */,
+			);
+			name = Criteria;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +446,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Universitas Gadjah Mada";
 				TargetAttributes = {
+					F9DEA4A4189A9B8500E57F41 = {
+						DevelopmentTeam = X4J84ZP5R4;
+					};
 					F9DEA4C4189A9B8500E57F41 = {
 						TestTargetID = F9DEA4A4189A9B8500E57F41;
 					};
@@ -230,7 +478,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9DEA4B5189A9B8500E57F41 /* InfoPlist.strings in Resources */,
-				F9DEA4C0189A9B8500E57F41 /* Images.xcassets in Resources */,
+				F9FD68C018A341930068F8FE /* result@2x.png in Resources */,
+				F9FD68AC18A341930068F8FE /* Default.png in Resources */,
+				F9FD68B818A341930068F8FE /* project@2x.png in Resources */,
+				F9FD68BF18A341930068F8FE /* result.png in Resources */,
+				F9FD68BD18A341930068F8FE /* prostudy114.png in Resources */,
+				F9FD68A818A341930068F8FE /* criteria.png in Resources */,
+				F9FD68B118A341930068F8FE /* Images.xcassets in Resources */,
+				F9FD68B518A341930068F8FE /* params@2x.png in Resources */,
+				F9FD68B418A341930068F8FE /* params.png in Resources */,
+				F9FD68BC18A341930068F8FE /* prostudy57.png in Resources */,
+				F9FD68AB18A341930068F8FE /* Default-568h@2x.png in Resources */,
+				F9FD68AD18A341930068F8FE /* Default@2x.png in Resources */,
+				F9FD68A918A341930068F8FE /* criteria@2x.png in Resources */,
+				F9FD68AE18A341930068F8FE /* defaultCriteria.plist in Resources */,
+				F9FD68B718A341930068F8FE /* project.png in Resources */,
+				F9FD68BE18A341930068F8FE /* prostudy120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +512,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DEA4BB189A9B8500E57F41 /* GMAppDelegate.m in Sources */,
+				F9FD68A718A341930068F8FE /* Criteria.m in Sources */,
+				F9FD68AA18A341930068F8FE /* CriteriaComparison.m in Sources */,
+				F9FD68DD18A341930068F8FE /* UGMTripleTextCell.m in Sources */,
+				F9FD68CF18A341930068F8FE /* UGMCriteriaViewController.m in Sources */,
 				F9DEA4B7189A9B8500E57F41 /* main.m in Sources */,
-				F9DEA4BE189A9B8500E57F41 /* Prostudy.xcdatamodeld in Sources */,
+				F9FD68B618A341930068F8FE /* Project.m in Sources */,
+				F9FD68D618A341930068F8FE /* UGMProjectExplanationCell.m in Sources */,
+				F9FD68C518A341930068F8FE /* UGMCompareViewController.m in Sources */,
+				F9FD68CB18A341930068F8FE /* UGMCriteriaComparisonViewController.m in Sources */,
+				F9FD68B318A341930068F8FE /* Parameter.m in Sources */,
+				F9FD68B218A341930068F8FE /* Model.xcdatamodeld in Sources */,
+				F9FD68A418A341930068F8FE /* UIView+Positioning.m in Sources */,
+				F9FD68DC18A341930068F8FE /* UGMSubCriteriaViewController.m in Sources */,
+				F9FD68C718A341930068F8FE /* UGMComparisonDetailCell.m in Sources */,
+				F9FD68C218A341930068F8FE /* UGMAnalyticHierarchyProcess.m in Sources */,
+				F9FD68C918A341930068F8FE /* UGMCriteriaComparisonCell.m in Sources */,
+				F9FD68BA18A341930068F8FE /* ProjectComparison.m in Sources */,
+				F9FD68D218A341930068F8FE /* UGMProjectComparisonCell.m in Sources */,
+				F9FD68C618A341930068F8FE /* UGMComparisonCell.m in Sources */,
+				F9FD68D818A341930068F8FE /* UGMProjectViewController.m in Sources */,
+				F9FD68D118A341930068F8FE /* UGMPrioritySlider.m in Sources */,
+				F9FD68D518A341930068F8FE /* UGMProjectDetailViewController.m in Sources */,
+				F9FD68C318A341930068F8FE /* UGMAppDelegate.m in Sources */,
+				F9FD68A518A341930068F8FE /* UIView+Size.m in Sources */,
+				F9FD68C818A341930068F8FE /* UGMComparisonView.m in Sources */,
+				F9FD68A618A341930068F8FE /* CoreDataTableViewController.m in Sources */,
+				F9FD68CD18A341930068F8FE /* UGMCriteriaDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Prostudy/Prostudy-Prefix.pch";
 				INFOPLIST_FILE = "Prostudy/Prostudy-Info.plist";
@@ -383,6 +671,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Prostudy/Prostudy-Prefix.pch";
 				INFOPLIST_FILE = "Prostudy/Prostudy-Info.plist";
@@ -452,6 +741,7 @@
 				F9DEA4D9189A9B8500E57F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9DEA4DA189A9B8500E57F41 /* Build configuration list for PBXNativeTarget "ProstudyTests" */ = {
 			isa = XCConfigurationList;
@@ -460,17 +750,18 @@
 				F9DEA4DC189A9B8500E57F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F9DEA4BC189A9B8500E57F41 /* Prostudy.xcdatamodeld */ = {
+		F9FD685218A341930068F8FE /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F9DEA4BD189A9B8500E57F41 /* Prostudy.xcdatamodel */,
+				F9FD685318A341930068F8FE /* Model.xcdatamodel */,
 			);
-			currentVersion = F9DEA4BD189A9B8500E57F41 /* Prostudy.xcdatamodel */;
-			path = Prostudy.xcdatamodeld;
+			currentVersion = F9FD685318A341930068F8FE /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

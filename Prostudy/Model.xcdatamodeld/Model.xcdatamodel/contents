@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Criteria" representedClassName="Criteria" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <relationship name="childs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Criteria" inverseName="parent" inverseEntity="Criteria" syncable="YES"/>
+        <relationship name="criteriaComparisons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CriteriaComparison" inverseName="criterias" inverseEntity="CriteriaComparison" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Criteria" inverseName="childs" inverseEntity="Criteria" syncable="YES"/>
+        <relationship name="projectComparison" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProjectComparison" inverseName="criteria" inverseEntity="ProjectComparison" syncable="YES"/>
+    </entity>
+    <entity name="CriteriaComparison" representedClassName="CriteriaComparison" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <relationship name="criterias" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Criteria" inverseName="criteriaComparisons" inverseEntity="Criteria" syncable="YES"/>
+    </entity>
+    <entity name="Parameter" representedClassName="Parameter" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="parameters" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="parameters" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Parameter" inverseName="project" inverseEntity="Parameter" syncable="YES"/>
+        <relationship name="projectComparisons" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ProjectComparison" inverseName="projects" inverseEntity="ProjectComparison" syncable="YES"/>
+    </entity>
+    <entity name="ProjectComparison" representedClassName="ProjectComparison" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="criteria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Criteria" inverseName="projectComparison" inverseEntity="Criteria" syncable="YES"/>
+        <relationship name="projects" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Project" inverseName="projectComparisons" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Criteria" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CriteriaComparison" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Parameter" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Project" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ProjectComparison" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
